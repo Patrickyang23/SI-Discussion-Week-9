@@ -106,3 +106,12 @@ form label[for=mastercard] {
 	} */
 }
 /*** END HERE ***/
+
+button {
+    cursor: wait;
+}
+@media screen and (prefers-reduced-motion) {
+    button {
+        cursor: crosshair;
+    }
+}
